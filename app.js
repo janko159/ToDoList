@@ -7,7 +7,7 @@ const itemModel = require("./Schema/itemSchema");
 const mongoose = require("mongoose");
 const { name } = require("ejs");
 
-mongoose.connect("mongodb://127.0.0.1:27017/todoList");
+mongoose.connect("mongodb+srv://Janko:Janko345@cluster0.54lonfo.mongodb.net/todoList");
 
 const app = express();
 
